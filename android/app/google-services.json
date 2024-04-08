@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "674467526195",
+    "project_id": "duties-sharer-app",
+    "storage_bucket": "duties-sharer-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674467526195:android:0b84ffb3c6d1d1e48cd546",
+        "android_client_info": {
+          "package_name": "com.example.duties_sharer_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGQXltiiiWH4FKOI_799A5S83o2oYWxnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

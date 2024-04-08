@@ -1,0 +1,30 @@
+name: group_repository
+description: Repository of group
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # cupertino_icons: ^1.0.2
+  equatable: ^2.0.5
+  uuid: ^4.2.1
+  # firebase_auth: ^4.14.0
+  cloud_firestore: ^4.13.1
+  # firebase_core: ^2.22.0
+  # firebase_storage: ^11.5.6
+  user_repository: 
+    path: ../user_repository
+  duty_repository: 
+    path: ../duty_repository
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

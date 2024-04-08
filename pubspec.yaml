@@ -1,0 +1,94 @@
+name: duties_sharer_app
+description: Duties Sharer App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  cloud_firestore: ^4.15.4
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  firebase_storage: ^11.6.5
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.4
+  bloc: ^8.1.2
+  get: ^4.6.6
+  intl: ^0.19.0
+  loading_animation_widget: ^1.2.0+4
+  flutter_native_splash: ^2.3.10
+  flutter_launcher_icons: ^0.13.1
+  animations: ^2.0.11
+  flutter_animate: ^4.5.0
+  
+  user_repository: 
+    path: packages/user_repository
+  group_repository: 
+    path: packages/group_repository
+  duty_repository: 
+    path: packages/duty_repository
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+      - assets/images/
+
+
+  fonts:
+  - family: EpilogueRegular
+    fonts:
+      - asset: assets/fonts/Epilogue-Regular.otf
+
+  - family: EpilogueMedium
+    fonts:
+      - asset: assets/fonts/Epilogue-Medium.otf
+
+  - family: EpilogueSemiBold
+    fonts:
+      - asset: assets/fonts/Epilogue-SemiBold.otf
+
+  - family: EpilogueBold
+    fonts:
+      - asset: assets/fonts/Epilogue-Bold.otf
+
+
+  - family: EpilogueBlack
+    fonts:
+      - asset: assets/fonts/Epilogue-Black.otf
+
+  - family: Kounstruct
+    fonts:
+      - asset: assets/fonts/Kounstruct.otf
+
+  - family: Maze
+    fonts:
+      - asset: assets/fonts/Maze.otf
+
+  - family: Transom
+    fonts:
+      - asset: assets/fonts/Transom.ttf
+
+flutter_native_splash:
+  color: "#0A0A0A"
+  image: assets/images/sharies.png
+  android_12:
+    color: "#0A0A0A"
+    image: assets/images/sharies.png
+
+flutter_launcher_icons:
+  image_path: "assets/images/icon.png" 
+  android: true 
+  ios: true 
